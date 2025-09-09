@@ -1,4 +1,5 @@
-# Run this to clean up existing tunnels:
+once you run this project finaly use this code to disconnect all the tunnel
+'''# Run this to clean up existing tunnels:
 from pyngrok import ngrok
 tunnels = ngrok.get_tunnels()
 for tunnel in tunnels:
@@ -6,7 +7,7 @@ for tunnel in tunnels:
 ngrok.kill()
 
 # Then re-run your main code
-
+'''
 
 
 import nest_asyncio
