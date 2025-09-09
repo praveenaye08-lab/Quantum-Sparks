@@ -1,4 +1,4 @@
-once you run this project finaly use this code to disconnect all the tunnel
+#once you run this project finaly use this code to disconnect all the tunnel
 '''# Run this to clean up existing tunnels:
 from pyngrok import ngrok
 tunnels = ngrok.get_tunnels()
